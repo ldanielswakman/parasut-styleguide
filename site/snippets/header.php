@@ -10,6 +10,7 @@
   <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
 
   <?php echo css('assets/css/main.css') ?>
+  <?php echo css('https://d1clcn8z2qe17y.cloudfront.net/production/assets/parasut-f8e7f4e036c574a0d79626f1bf73c396.css') ?>
 
 </head>
 <body>
