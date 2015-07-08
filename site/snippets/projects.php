@@ -1,6 +1,6 @@
 <h2>Latest projects</h2>
 
-<ul class="teaser cf">
+<ul class="teaser u-clearfix">
   <?php foreach(page('projects')->children()->visible()->limit(3) as $project): ?>
   <li>
     <h3><a href="<?php echo $project->url() ?>"><?php echo $project->title()->html() ?></a></h3>
