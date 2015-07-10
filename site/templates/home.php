@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
 
+<main>
+
   <section class="u-pt6 u-ph4 c-bgConfirm u-hideOverflow">
     <div class="gw">
       <div class="g g-1of3">
@@ -7,14 +9,7 @@
       </div>
       <div class="g g-2of3">
 
-        <img src="https://d1clcn8z2qe17y.cloudfront.net/production/assets/parasut-logo-d6c7ff72f97293ff81a442878a75ed7e.png" alt="" class="u-width3" />
-        <h1 class="u-mt1" style="font-size: 3em;">
-          This is how <a href="https://www.google.com.tr/search?q=vecihi&espv=2&biw=1317&bih=673&source=lnms&tbm=isch&sa=X&ei=UqKfVe7_M4yHyASIi6HACg&ved=0CAYQ_AUoATgK&dpr=1" class="c-textWhite" target="_blank">Vecihi</a> flies his plane
-        </h1>
-        <h3>Explore Paraşüt's Style Guide.</h3>
-        <a href="#contents" class="u-inlineBlock">
-          <i class="fa fa-angle-down fa-5x c-textWhite"></i>
-        </a>
+        <?php echo $page->hero()->kirbytext() ?>
 
       </div>
     </div>
@@ -31,17 +26,19 @@
     </div>
   </section>
 
-  <main class="main" role="main">
+  <section id="contents" class="u-pv3 u-ph4 c-bg   u-clearfix">
+    <div class="gw">
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
+      <div class="g g-1of3 u-height5">
+      </div>
+
       <?php echo $page->text()->kirbytext() ?>
+
     </div>
+  </section>
 
-    <hr>
+  <?php snippet('projects') ?>
 
-    <?php snippet('projects') ?>
-
-  </main>
+</main>
 
 <?php snippet('footer') ?>

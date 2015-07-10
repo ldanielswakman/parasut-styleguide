@@ -7,6 +7,7 @@ password: >
 language: en
 role: admin
 history:
+  - home
   - elements/badges
   - elements/tables
   - elements/buttons
