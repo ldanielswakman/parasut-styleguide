@@ -20,28 +20,13 @@
     </div>
   </section>
 
-  <section class="u-pv3 u-ph4 c-bgLight u-clearfix">
+  <section id="contents" class="u-pv3 u-ph4 c-bgLight u-clearfix">
     <div class="gw">
 
-      <?php foreach($pages->visible() as $p): ?>
-        <?php if($p->hasVisibleChildren()): ?>
+      <div class="g g-1of3 u-height5">
+      </div>
 
-          <div class="g g-1of3">
-            <a class="u-block u-mb1" href="<?php echo $p->url() ?>">
-              <big><?php echo $p->title()->html() ?></big>
-            </a>
-
-            <ul>
-              <?php foreach($p->children()->visible() as $p): ?>
-              <li>
-                <a href="<?php echo $p->url() ?>" class="u-block u-pv025"><?php echo $p->title()->html() ?></a>
-              </li>
-              <?php endforeach ?>
-            </ul>
-          </div>
-        
-        <?php endif ?>
-      <?php endforeach; ?>
+      <?php snippet('sitemap', array('colsize' => '1of6')) ?>
 
     </div>
   </section>
