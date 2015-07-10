@@ -13,16 +13,17 @@
   <link href="/assets/images/favicon.ico" type="image/x-icon" rel="shortcut icon" />
 
   <?php echo css('assets/css/main.css') ?>
+  <?php echo css('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css') ?>
   <?php echo css('https://d1clcn8z2qe17y.cloudfront.net/production/assets/parasut-f8e7f4e036c574a0d79626f1bf73c396.css') ?>
 
 </head>
 <body>
 
-  <header class="u-pa1 u-clearfix c-bgDangerDark">
+  <header class="u-pa1 u-clearfix c-bgWhite">
     <a class="logo" href="<?php echo url() ?>">
       <img class="u-pullLeft u-width2" src="<?php echo url('assets/images/favicon.png') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h1 class="u-pullLeft u-ml1">Paraşüt Style Guide</h1>
     </a>
     <?php snippet('menu') ?>
   </header>
-  <div class="headerplaceholder c-bgDangerDark"></div>
+  <div class="headerplaceholder c-bgWhite"></div>
