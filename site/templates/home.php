@@ -26,7 +26,7 @@
     </div>
   </section>
 
-  <section id="contents" class="u-pv3 u-ph4 c-bg   u-clearfix">
+  <section id="contents" class="u-pv3 u-ph4 u-clearfix">
     <div class="gw">
 
       <div class="g g-1of3 u-height5">
@@ -37,7 +37,7 @@
     </div>
   </section>
 
-  <?php snippet('projects') ?>
+  <?php // snippet('projects') ?>
 
 </main>
 

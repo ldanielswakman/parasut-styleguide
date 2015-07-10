@@ -10,8 +10,8 @@ Hero:
 
 (image: https://d1clcn8z2qe17y.cloudfront.net/production/assets/parasut-logo-d6c7ff72f97293ff81a442878a75ed7e.png class: u-width3)
 
-<h1 class="u-mt1 u-mb05" style="font-size: 3em;">
+<h1 class="u-mv1" style="font-size: 3em;">
   This is how (link: https://www.google.com.tr/search?q=vecihi&espv=2&biw=1317&bih=673&source=lnms&tbm=isch&sa=X&ei=UqKfVe7_M4yHyASIi6HACg&ved=0CAYQ_AUoATgK&dpr=1 text: Vecihi class: c-textWhite popup: yes) flies his plane
 </h1>
-### Explore Paraşüt's Style Guide.
+<h3 class="u-pv1" style="font-weight: normal;"> Explore Paraşüt's Style Guide.</h3>
 (link: #contents class: u-inlineBlock u-mt1 text:  <i class="fa fa-angle-down fa-5x c-textWhite"></i>)

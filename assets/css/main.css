@@ -1,14 +1,36 @@
 /* --- Generic --- */
+p {
+  max-width: 40em;
+}
 figure img {
   max-width: 100%;
 }
+
+
 
 /* --- Header --- */
 header {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
+
+
+
+/* --- Main --- */
+main {
+  min-height: calc( 100vh - 160px ); /* 100% - roughly header and footer heights */
+}
+main a {
+  font-weight: bold;
+  /*color: #fd5348;*/
+  opacity: 0.75;
+}
+main a:hover {
+  opacity: 1;
+}
+
 
 
 /* Navigation
@@ -31,10 +53,6 @@ header {
 .menu > li {
   position: relative;
 }
-.menu > li > a {
-  font-weight: 600;
-}
-
 .menu .submenu {
   position: absolute;
   top: 100%;
@@ -43,12 +61,6 @@ header {
   min-width: 100%;
   background: #fff;
   display: none;
-}
-.menu .submenu:before {
-  content: "";
-  display: block;
-  height: 20px;
-  background-color: transparent;
 }
 .menu .submenu a {
   font-size: .9em;
@@ -78,109 +90,6 @@ header {
 }
 
 
-/* Headings
--------------------------------------------------- */
-h1 {
-  font-size: 2em;
-  line-height: 1.25em;
-  font-weight: 400;
-  margin-bottom: .5em;
-}
-h2 {
-  font-size: 2em;
-  line-height: 1.25em;
-  font-weight: 300;
-  margin-bottom: .5em;
-  color: #E74C3C;
-}
-h3 {
-  font-size: 1.4em;
-  line-height: 1.5em;
-  font-weight: 400;
-  margin-bottom: .5em;
-}
-h4 {
-  font-size: 1.125em;
-  font-weight: 600;
-  line-height: 1.5em;
-  margin-bottom: .5em;
-  color: #E74C3C;
-}
-h1 a, h2 a, h3 a, h4 a {
-  color: inherit;
-  border: 0 !important;
-}
-
-
-
-/* Main
--------------------------------------------------- */
-.main {
-  padding-bottom: 1.5em;
-  border-bottom: 2px solid #E74C3C;
-}
-.main hr {
-  margin: 3em 0;
-  height: 2px;
-  background: #ddd;
-}
-.main p,
-.main figure,
-.main ul,
-.main ol {
-  margin-bottom: 1.5em;
-}
-.main a {
-  border-bottom: 2px solid #ddd;
-}
-.main a:hover {
-  border-color: #222;
-}
-
-/* Text blocks */
-.text ul,
-.text ol {
-  margin-left: 1em;
-}
-
-/* Project meta
--------------------------------------------------- */
-.meta {
-  margin-bottom: 1.5em;
-}
-.meta li {
-  float: left;
-  list-style: none;
-  margin-right: 2em;
-  color: #E74C3C;
-}
-.meta li b {
-  font-weight: 400;
-  color: #000;
-  padding-right: .25em;
-}
-
-
-/* Project teaser
--------------------------------------------------- */
-.teaser {
-  list-style: none;
-}
-.teaser li {
-  margin-bottom: 1.5em;
-  list-style: none;
-}
-@media screen and (min-width: 50em) {
-  .teaser li {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-  }
-  .teaser li:first-child {
-    margin-left: 0;
-  }
-}
-
 
 /* Next/Prev nav
 -------------------------------------------------- */
@@ -201,16 +110,9 @@ h1 a, h2 a, h3 a, h4 a {
 /* Footer
 -------------------------------------------------- */
 .footer {
-  padding: 1em 0 6em;
-  font-size: .8em;
+  background-color: #373636;
+  color: #999593;
 }
-.copyright {
-  float: left;
-}
-.colophon {
-  float: right;
-}
-.colophon a b {
-  color: #E74C3C;
-  padding-left: .25em;
+.footer a {
+  color: #ccc;
 }

@@ -1,8 +1,8 @@
-Title: Kirby Starterkit
+Title: Paraşüt Style Guide
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: L Daniel Swakman, Fahri Özkaramanlı, Alper Ersoy
 
 ----
 
@@ -10,8 +10,8 @@ Description: This is Kirby's Starterkit.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Kirby,CMS,file-based
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © (date: Year) (link: http://parasut.com text: OYT Yazılım Teknolojileri A.Ş.)

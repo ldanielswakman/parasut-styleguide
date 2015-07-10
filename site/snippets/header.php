@@ -26,7 +26,7 @@
   <header class="u-pa1 u-clearfix c-bgWhite u-height4 u-fullWidth">
     <a class="logo" href="<?php echo ($page->isHomePage()) ? '#top' : url() ?>">
       <img class="u-pullLeft u-width2" src="<?php echo url('assets/images/favicon.png') ?>" alt="<?php echo $site->title()->html() ?>" />
-      <h1 class="u-pullLeft u-ml1">Paraşüt Style Guide</h1>
+      <h1 class="u-pullLeft u-ml1 u-lineHeight30">Paraşüt Style Guide</h1>
     </a>
     <?php snippet('menu') ?>
   </header>

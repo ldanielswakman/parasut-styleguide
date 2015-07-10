@@ -2,18 +2,21 @@
 
   <main>
 
-    <section class="u-ph4 u-pv2">
+    <section class="u-ph4 u-pv2 u-clearfix">
       <div class="gw">
         <div class="g g-1of6">
           &nbsp;
         </div>
         <div class="g g-5of6">
-          <h1><?php echo $page->title()->html() ?></h1>
+          <h1 class="u-mb1 c-textDanger"><?php echo $page->title()->html() ?></h1>
+          
+          <?php echo $page->hero()->kirbytext() ?>
         </div>
       </div>
     </section>
 
-    <section class="u-ph4 u-pv3">
+    <?php if (strlen($page->text()->kirbytext()) > 0): ?>
+    <section class="u-ph4 u-pv3 u-clearfix">
       <div class="gw">
         <div class="g g-1of6">
           &nbsp;
@@ -23,6 +26,7 @@
         </div>
       </div>
     </section>
+    <?php endif ?>
 
     <section id="contents" class="u-pv3 u-ph4 u-clearfix c-bgDark">
       <div class="gw">

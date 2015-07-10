@@ -8,7 +8,7 @@ language: en
 role: admin
 history:
   - home
+  - components
   - elements/badges
   - elements/tables
   - elements/buttons
-  - elements
