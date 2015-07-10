@@ -31,7 +31,7 @@
           <?php if($prev = $page->prevVisible()): ?>
           <a href="<?php echo $prev->url() ?>">
             <h3 class="c-textLight">
-              <i class="fa fa-arrow-left fa-2x"></i>
+              <i class="fa fa-arrow-left fa-2x u-mr1"></i>
               <?php echo $prev->title(); ?>
             </h3>
           </a>
@@ -48,7 +48,7 @@
           <a href="<?php echo $next->url() ?>">
             <h3 class="c-textLight">
               <?php echo $next->title(); ?>
-              <i class="fa fa-arrow-right fa-2x"></i>
+              <i class="fa fa-arrow-right fa-2x u-ml1"></i>
             </h3>
           </a>
           <?php endif ?>

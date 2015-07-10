@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - components/colours
+  - elements/buttons
+  - elements/fields
   - home
   - components
-  - elements/badges
-  - elements/tables
-  - elements/buttons

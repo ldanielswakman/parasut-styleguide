@@ -8,6 +8,12 @@ Year:
 
 Text: 
 
+<div class="badge badge-circle badge-big u-pullLeft" style="background-color: #fd5348"></div>
+<h3 class="u-pullLeft u-mv05 u-ml1 u-lineHeight30">
+<span class="c-textLight">Paraşüt Red</span><br />
+#fd5348
+</h3>
+
 ----
 
 Tags: 

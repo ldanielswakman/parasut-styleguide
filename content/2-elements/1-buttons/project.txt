@@ -10,4 +10,20 @@ Tags: outdoor
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: 
+
+<button class="ember-view button button-primary u-mr05">YENİ HARCAMA</button>
+<button class="ember-view button button-secondary u-mr05">DİĞER HESABA TRANSFER YAP</button>
+<button class="ember-view button button-tertiary u-mr05">VAZGEÇ</button>
+<button class="ember-view button button-quaternary u-mr05">DİĞER</button>
+<br />
+<button class="ember-view button button-negative u-mt05 u-mr05">ÖDEME EKLE</button>
+<button class="ember-view button button-positive u-mt05 u-mr05">TAHSİLAT EKLE</button>
+<button class="ember-view button button-outline u-mt05 u-mr05">DÜZENLE</button>
+<br />
+<button class="ember-view button button-primary button-small u-mt05 u-mr05">TAMAM</button>
+<button class="ember-view button button-primary button-small button-outline u-mt05 u-mr05">TAMAM</button>
+<br />
+<button class="ember-view button button-primary button-small button-joinRight u-pullLeft u-mt05">LEFT SIDE</button>
+<button class="ember-view button button-primary button-small button-joinBoth u-pullLeft u-mt05">RIGHT SIDE</button>
+<button class="ember-view button button-primary button-small button-joinLeft u-pullLeft u-mt05">RIGHT SIDE</button>
