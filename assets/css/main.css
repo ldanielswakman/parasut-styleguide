@@ -1,10 +1,28 @@
 /* --- Generic --- */
+body {
+  min-width: 0 !important;
+}
 p {
   max-width: 40em;
 }
 figure img {
   max-width: 100%;
 }
+
+
+
+
+/* --- Grid system responsive 'fixes' --- */
+.gw {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+@media screen and (max-width: 768px) {
+  .gw .g {
+    width: 100% !important;
+  }
+}
+
 
 
 
@@ -15,6 +33,19 @@ header {
   left: 0;
   z-index: 10;
 }
+
+
+
+
+/* --- Menu --- */
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
 
 
 

@@ -19,6 +19,24 @@
     <div class="gw">
 
       <div class="g g-1of3 u-height5">
+
+        <h4>MOST RECENT CHANGES</h4>
+        <?php
+        // showing 5 most recently changed pages
+        foreach ($pages->index()->visible()->sortBy('modified', 'DESC')->limit(5) as $p):
+        $url = (strlen($p->parent()) > 0) ? $p->parent()->url() . '#' . $p->slug() : $p->url();
+        ?>
+        <a href="<?php echo $url ?>" class="u-block u-mv05">
+          <?php echo $p->title() ?>
+          <br />
+          <span class="c-textLight">
+            <small>
+              (<?php echo $p->modified('d M Y, H:i') ?>)
+            </small>
+          </span>
+        </a>
+        <?php endforeach ?>
+
       </div>
 
       <?php snippet('sitemap', array('colsize' => '1of6')) ?>

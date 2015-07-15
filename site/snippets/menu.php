@@ -12,9 +12,9 @@
 
       <?php if($p->hasVisibleChildren()): ?>
       <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
+        <?php foreach($p->children()->visible() as $subp): ?>
         <li>
-          <a href="<?php echo $p->url() ?>" class="u-pv05 u-ph1"><?php echo $p->title()->html() ?></a>
+          <a href="<?php echo $p->url() . '#' . $subp->slug() ?>" class="u-pv05 u-ph1"><?php echo $subp->title()->html() ?></a>
         </li>
         <?php endforeach ?>
       </ul>

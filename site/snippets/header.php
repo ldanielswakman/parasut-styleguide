@@ -23,8 +23,16 @@
 </head>
 <body>
 
-  <header class="u-pa1 u-clearfix c-bgWhite u-height4 u-fullWidth">
-    <a class="logo" href="<?php echo ($page->isHomePage()) ? '#top' : url() ?>">
+  <header class="u-pa1 u-clearfix c-bgWhite u-height4 u-fullWidth u-hasHiddenContent">
+    <?php if(!$page->isHomePage()): ?>
+    <div class="u-positionTL">
+      <a href="#top" class="u-inlineBlock u-hiddenContent u-pv125 u-ph15 c-bgWhite">
+        <i class="fa fa-angle-up fa-2x"></i>
+      </a>
+    </div>
+    <?php endif ?>
+
+    <a class="logo" href="<?php echo url() ?>">
       <img class="u-pullLeft u-width2" src="<?php echo url('assets/images/favicon.png') ?>" alt="<?php echo $site->title()->html() ?>" />
       <h1 class="u-pullLeft u-ml1 u-lineHeight30">Paraşüt Style Guide</h1>
     </a>

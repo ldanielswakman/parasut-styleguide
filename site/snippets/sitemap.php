@@ -16,9 +16,9 @@ foreach($scope->visible() as $p):
     <?php endif ?>
 
     <ul>
-      <?php foreach($p->children()->visible() as $p): ?>
+      <?php foreach($p->children()->visible() as $subp): ?>
       <li>
-        <a href="<?php echo $p->url() ?>" class="u-block u-pv025"><?php echo $p->title()->html() ?></a>
+        <a href="<?php echo $p->url() . '#' . $subp->slug() ?>" class="u-block u-pv025"><?php echo $subp->title()->html() ?></a>
       </li>
       <?php endforeach ?>
     </ul>
