@@ -7,8 +7,8 @@ password: >
 language: en
 role: admin
 history:
+  - basics/grid
   - basics/colours
   - elements
   - basics
   - elements/buttons
-  - elements/fields

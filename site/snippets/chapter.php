@@ -12,7 +12,7 @@ $bgs = array('c-bgLighter', 'c-bgLight', 'c-bg', 'c-bgDark', 'c-bgDarker', 'c-bg
           <?php echo $page->title() ?>
       </h2>
 
-      <?php echo $page->text() ?>
+      <?php echo $page->text()->html() ?>
     </div>
   </div>
 

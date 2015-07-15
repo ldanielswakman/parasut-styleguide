@@ -3,10 +3,19 @@ body {
   min-width: 0 !important;
 }
 p {
-  max-width: 40em;
+  max-width: 30em;
 }
 figure img {
   max-width: 100%;
+}
+pre {
+  display: inline-block;
+  margin: 0 2px !important;
+  padding: 2px 3px !important;
+  background-color: #fff;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 
