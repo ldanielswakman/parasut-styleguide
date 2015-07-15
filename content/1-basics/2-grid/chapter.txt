@@ -1,0 +1,19 @@
+Title: Grid
+
+----
+
+Text: 
+
+A grid consists of minimum of 2 nested divs: A <pre>.gw</pre> (grid wrapper) and one or more <pre>.g</pre> (grid columns). The columns can be given fluid size by adding a class in the pattern of <pre>.g-1of6</pre>. The columns can be arranged from 1of1 up to 1of12.
+
+<div class="gw u-ph0 u-mv2">
+<div class="g g-1of6 c-bgLighter c-textLight u-pv15">
+1of6
+</div>
+<div class="g g-1of2 c-bgWhite c-textLight u-pv15">
+1of2
+</div>
+<div class="g g-2of6 c-bgLight c-textLight u-pv15">
+2of6
+</div>
+</div>

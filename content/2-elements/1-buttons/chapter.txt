@@ -2,14 +2,6 @@ Title: Buttons
 
 ----
 
-Year: 
-
-----
-
-Tags: outdoor
-
-----
-
 Text: 
 
 <button class="ember-view button button-primary u-mr05">YENİ HARCAMA</button>

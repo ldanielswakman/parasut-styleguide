@@ -2,10 +2,6 @@ Title: Colours
 
 ----
 
-Year: 
-
-----
-
 Text: 
 
 <div class="badge badge-circle badge-big u-pullLeft" style="background-color: #fd5348"></div>
@@ -25,7 +21,3 @@ Text:
 <b><span class="c-textLight">Text Light</span><br />
 #999593
 </b></h2>
-
-----
-
-Tags: 
