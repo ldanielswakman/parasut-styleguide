@@ -2,4 +2,8 @@ Title: Elements
 
 ----
 
-Text: UI Elements of the app.
+Text: 
+
+----
+
+Hero: UI Elements of the app.

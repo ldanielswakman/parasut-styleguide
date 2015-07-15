@@ -1,0 +1,31 @@
+Title: Colours
+
+----
+
+Year: 
+
+----
+
+Text: 
+
+<div class="badge badge-circle badge-big u-pullLeft" style="background-color: #fd5348"></div>
+<h2 class="u-pullLeft u-mv05 u-ml1 u-lineHeight30 u-mr2">
+<b><span class="c-textLight">Paraşüt Red</span><br />
+#fd5348
+</b></h2>
+
+<div class="badge badge-circle badge-big u-pullLeft" style="background-color: #403637"></div>
+<h2 class="u-pullLeft u-mv05 u-ml1 u-lineHeight30 u-mr2">
+<b><span class="c-textLight">Text Dark Grey</span><br />
+#403637
+</b></h2>
+
+<div class="badge badge-circle badge-big u-pullLeft" style="background-color: #999593"></div>
+<h2 class="u-pullLeft u-mv05 u-ml1 u-lineHeight30 u-mr2">
+<b><span class="c-textLight">Text Light</span><br />
+#999593
+</b></h2>
+
+----
+
+Tags: 
