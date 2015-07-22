@@ -3,3 +3,64 @@ Title: Cards
 ----
 
 Text: 
+
+<div class="Card">
+<div class="Card-header">
+<a class="button button-primary u-pullRight u-mt1" href="javascript:void(0)">
+PRIMARY
+</a>
+<h2 class="u-ml1"><b>This is a card!</b> A <pre>.Card-header</pre>, to be precise.</h2>
+</div>
+<div class="Card-content">
+
+<div class="Card-row u-pa1">
+The card-content can be different kinds; in the form of a <pre>.Card-row</pre>, like this....
+</div>
+
+<div class="resultSetGroup u-borderTop">
+<div class="resultSet">
+<div class="resultSet-label g g-3of10">
+<i class="fa u-mr1 u-width2 u-textCenter fa-comments"></i>RESULT SET
+</div>
+<div class="resultSet-value g g-7of10">
+... or a <pre>.resultSet</pre>, like this....
+</div>
+</div>
+</div>
+
+<div class="table">
+            <div class="table-row table-header">
+              <span class="table-cell g-2of4 u-pl4 u-pt1 u-truncatedText">AÇIKLAMA</span>
+              <span class="table-cell g-1of4 u-pt1">
+                <span class="isSorted isSortedAmountDesc" href="#">ÖDEME TARİHİ</span>
+              </span>
+              <span class="table-cell g-1of4 u-textRight u-pr1 u-pt1">KALAN MEBLAĞ</span>
+            </div>
+
+              <a class="ember-view table-row table-row-1line" href="javascript:void(0)">  <span class="table-cell u-pl1 u-truncatedText" title="Maaş Ödemesi">
+    <div class="ember-view c-textLight u-width2 u-textCenter u-mr1 u-pullLeft"><i class="fa fa-table"></i>
+</div>
+    ... or in the form of a:
+  </span>
+  <span class="table-cell u-truncatedText ">
+    <pre>.table</pre>
+  </span>
+  <span class="table-cell u-textRight u-pr1">
+    <b>
+      <pre class="c-textNegative">1.337<small>,00<i class="fa fa-try"></i></small></pre>
+    </b>
+  </span>
+</a>
+
+ </div>
+
+</div>
+<div class="Card-footer u-borderTop">
+<span class="u-inlineBlock u-mt025 c-textLight">The <pre>.Card-footer</pre> can contain contextual actions and info.</span>
+<a class="button button-small button-outline u-pullRight" href="javascript:void(0)">
+<i class="fa fa-sign-out"></i>
+CONTEXTUAL ACTION
+</a>
+
+</div>
+</div>

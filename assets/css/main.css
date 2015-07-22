@@ -17,6 +17,12 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.Card pre {
+  background-color: #eee;
+}
+.Card b pre {
+  background-color: #fff;
+}
 
 
 
