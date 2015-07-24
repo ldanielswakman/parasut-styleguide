@@ -2,4 +2,93 @@ Title: Fields
 
 ----
 
-Text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+Text: 
+
+<p>Form fields are styled by default as an outlined box; there are many variations as shown by the card below, used when necessary. Only add things to a field if the content asks for it. Always wrap a field element in a <span class="pre">.fieldGroup</span>; for example:</p>
+
+<pre class="u-mv1 u-pa05 u-fullWidth u-block c-bgLighter">
+div.fieldGroup<br />
+<span class="c-textLightester">··</span>input<span class="class">.field.field-number</span> <span class="c-textLighter">// input field</span><br />
+<span class="c-textLightester">··</span>div<span class="class">.field-innerAppend</span> <span class="c-textLighter">// elements to be appended</span><br />
+<span class="c-textLightester">····</span>i<span class="class">.fa.fa-search</span>
+</pre>
+
+<p>Field/fieldGroup types</>
+
+<div class="Card u-mt1">
+<div class="Card-content u-pv1 u-pl1">
+
+<div class="gw u-clearfix">
+<div class="g g-1of2">
+
+<h4 class="u-mb025">Default</h4>
+<input class="field" value="Input text" />
+
+<h4 class="u-mb025 u-mt1">Big</h4>
+<input class="field field-big" placeholder="Placeholder text" />
+
+<h4 class="u-mb025 u-mt1">Number</h4>
+<input class="field field-number" value="17,8" />
+
+<h4 class="u-mb025 u-mt1">Disabled</h4>
+<input class="field field-disabled" disabled value="Disabled" />
+
+<h4 class="u-mb025 u-mt1">isFaded</h4>
+<div class="fieldGroup fieldGroup-isFaded">
+<input class="field field-text" type="text" value="Faded" />
+</div>
+
+<h4 class="u-mb025 u-mt1">Flat</h4>
+<input class="field field-flat" value="test" />
+
+</div>
+<div class="g g-1of2 u-pr1">
+
+<h4 class="u-mb025">With label</h4>
+<div class="fieldGroup">
+<label class="field-innerAppend field-innerAppend-labelLeft">KDV</label>
+<input class="field field-number" type="text" style="padding-left:52px" value="0,00" />
+</div>
+
+<h4 class="u-mb025 u-mt1">hasExisting</h4>
+<div class="fieldGroup hasExisting">
+<input class="field field-text" type="text" value="hasExisting" />
+<div class="field-innerAppend  isExisting"> 
+    <i class="fa fa-search"></i> 
+  </div>
+</div>
+
+<h4 class="u-mb025 u-mt1">with innerAppend</h4>
+<div class="fieldGroup">
+<input class="field field-text" type="text" value="Icon on right side" />
+<div class="field-innerAppend"> 
+    <i class="fa fa-search"></i>
+  </div>
+</div>
+
+<h4 class="u-mb025 u-mt1">with caret</h4>
+<div class="fieldGroup">
+<input class="field field-text" type="text" value="Caret (type icon optional)..." />
+<a id="field_caret" href="javascript:void(0)" class="field-innerAppend field-innerAppend-caret">
+    <i class="fa fa-try"></i>
+</a>
+</div>
+<script>
+$('#field_caret').click(function() {
+$(this).toggleClass('isActive');
+});
+</script>
+
+<h4 class="u-mb025 u-mt1">isBusy</h4>
+<div class="fieldGroup isBusy">
+<input class="field field-text" type="text" value="Has spinner..." />
+<div class="field-innerAppend isBusy">
+    <i class="fa fa-search"></i>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
