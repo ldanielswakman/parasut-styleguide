@@ -1,5 +1,5 @@
 <?php 
-$bgs = array('c-bgLighter', 'c-bgLight', 'c-bg', 'c-bgDark', 'c-bgDarker', 'c-bgDarkest', '');
+$bgs = array('c-bgWhite', 'c-bgLighter', 'c-bgLight', 'c-bg', 'c-bgDark', 'c-bgDarker', 'c-bgDarkest', '');
 ?>
 <section id="<?php echo $page->slug() ?>" class="u-pv3 u-clearfix <?php echo $bgs[$key] ?>">
   <div class="gw">

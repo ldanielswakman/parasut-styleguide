@@ -3,12 +3,12 @@ body {
   min-width: 0 !important;
 }
 p {
-  max-width: 30em;
+  max-width: 40em;
 }
 figure img {
   max-width: 100%;
 }
-pre {
+pre, .pre {
   display: inline-block;
   margin: 0 2px !important;
   padding: 2px 3px !important;
@@ -17,10 +17,13 @@ pre {
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-.Card pre {
+pre .class, .pre .class {
+  color: green;
+}
+.Card pre, .Card .pre {
   background-color: #eee;
 }
-.Card b pre {
+.Card b pre { /* fix for currency amount formatting */
   background-color: #fff;
 }
 
@@ -28,7 +31,7 @@ pre {
 
 
 /* --- Grid system responsive 'fixes' --- */
-.gw {
+section > .gw {
   padding-left: 80px;
   padding-right: 80px;
 }
